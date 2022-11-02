@@ -21,7 +21,7 @@ class VehicleControllerSetter {
     lateinit var vehicleService: VehicleService
 
     @Autowired
-    fun setVehicleControllerSetter(vehicleService: VehicleService) {
+    fun setVehicleServiceSetter(vehicleService: VehicleService) {
         this.vehicleService = vehicleService
     }
 
